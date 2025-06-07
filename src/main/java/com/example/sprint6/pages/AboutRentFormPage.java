@@ -114,6 +114,6 @@ public class AboutRentFormPage {
 
     // Проверка всплывающего окна с сообщением об успешном создании заказа.
     public boolean isSuccessMessageDisplayed() {
-        return track_Сontent.isDisplayed(); // Возвращает true, если уведомление отображается
+        return track_Сontent.isDisplayed(); //  Возвращает true, если уведомление отображается
     }
 }

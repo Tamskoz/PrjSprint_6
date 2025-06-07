@@ -58,7 +58,7 @@ public class ScooterForFormPage {
     // Метод выбора станции Метро
     public void selectMetroStation(String metroStation) {
 
-        metroField.click(); // Кликаем по полю Метро, чтобы активировать автозаполнение
+        metroField.click(); //  Кликаем по полю Метро, чтобы активировать автозаполнение
         metroField.sendKeys(Keys.ARROW_DOWN);
         metroField.sendKeys(Keys.ENTER);
         //metroSelectField.click();

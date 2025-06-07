@@ -37,7 +37,7 @@ class OrderScooterTests{
     private ScooterForFormPage scooterPage;
     private AboutRentFormPage aboutRentPage;
 
-    // Параметризованный тест принимает название браузера как аргумент
+    //  Параметризованный тест принимает название браузера как аргумент
     @ParameterizedTest(name = "{index}: Test for browser={0}")
     @ValueSource(strings = {"chrome", "firefox"})
 

@@ -15,7 +15,7 @@ class DropDownTests {
     private WebDriver driver;
     private HomePage mainPage;
 
-    // Параметризованный тест принимает название браузера как аргумент
+    //  Параметризованный тест принимает название браузера как аргумент
     @ParameterizedTest(name = "{index}: Test for browser={0}")
     @ValueSource(strings = {"chrome", "firefox"})
     public void testFaqDropdownOpensCorrectly(String browserName) {
