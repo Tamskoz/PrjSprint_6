@@ -97,7 +97,7 @@ public class HomePage {
     }
 
     // Метод клика по нижней кнопке заказа
-    public void clickOrderButtonBottom() throws InterruptedException {
+    public void clickOrderButtonBottom()  {
 //        Thread.sleep(5000); // Ждем 5 секунд
         orderButtonBottom2.sendKeys(Keys.ENTER);
     }

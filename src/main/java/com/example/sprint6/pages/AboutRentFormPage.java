@@ -73,7 +73,7 @@ public class AboutRentFormPage {
     }
 
     // Метод выбора срока аренды
-    public void rentalPeriod(String[] args) throws InterruptedException {
+    public void rentalPeriod(String[] args) {
         rentalPeriodField.click();// Кликаем по кнопке, чтобы раскрыть менюшку со сроками аренды
         //rentalSpisokPeriodField.click();
         rentalSpisokPeriod1Field.click();
@@ -106,7 +106,7 @@ public class AboutRentFormPage {
     }
 
     // Метод подтвержнения завершения оформления заказа
-    public void placeOrder() throws InterruptedException {
+    public void placeOrder() {
         // Ждем 5 секунд
         //Thread.sleep(5000); // 5000 миллисекунд = 5 секунд
 
