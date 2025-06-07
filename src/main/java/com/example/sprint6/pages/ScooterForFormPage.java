@@ -40,7 +40,7 @@ public class ScooterForFormPage {
         PageFactory.initElements(driver, this);
     }
 
-    // Метод проверки открытия  первой формы заказа "Для кого самокат"
+    // Метод проверки открытия первой формы заказа "Для кого самокат"
     public boolean isOrderForm() {
         return OrderForm.isDisplayed();
     }

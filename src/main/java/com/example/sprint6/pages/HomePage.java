@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.time.Duration;
 
-// Класс, стартовую страницу
+// Класс, стартовая страница
 public class HomePage {
 
     private WebDriver driver;

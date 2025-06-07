@@ -105,9 +105,8 @@ public class AboutRentFormPage {
         orderСontinuationField.click();
     }
 
-    // Метод подтвержнения завершения оформления заказа
+    // Метод подтвержения завершения оформления заказа
     public void placeOrder() {
-        // Ждем 5 секунд
         //Thread.sleep(5000); // 5000 миллисекунд = 5 секунд
 
         orderButton.click();

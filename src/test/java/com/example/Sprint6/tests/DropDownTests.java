@@ -40,7 +40,7 @@ class DropDownTests {
             mainPage.openPage(); // Открываем стартовую страницу
             mainPage.scrollToFAQSection();  // Прокручиваемся вниз до блока FAQ
             mainPage.firstDropDown(); // Раскрываем первый вопрос
-            Assertions.assertTrue(mainPage.firstIsDropDownVisible(), "Ответ на первый вопрос не раскылся."); // Проверяем открытие ответа на первый вопрос
+            Assertions.assertTrue(mainPage.firstIsDropDownVisible(), "Ответ на первый вопрос не раскрылся"); // Проверяем открытие ответа на первый вопрос
             mainPage.secondDropDown(); // Раскрываем второй вопрос
             Assertions.assertTrue(mainPage.secondIsDropDownVisible(), "Ответ на второй вопрос не раскрылся"); // Проверяем открытие ответа на второй вопрос
         } finally {

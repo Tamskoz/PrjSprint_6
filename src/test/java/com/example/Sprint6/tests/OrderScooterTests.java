@@ -55,7 +55,7 @@ class OrderScooterTests{
                 break;
 
         default:
-        throw new IllegalArgumentException("Данный тип браузера не поддерживается");
+            throw new IllegalArgumentException("Данный тип браузера не поддерживается");
         }
 
         try {
@@ -138,7 +138,7 @@ class OrderScooterTests{
             assertTrue(aboutRentPage.isRentalForm(), "Вторая форма заказа не отображается");
 
             aboutRentPage.selectGreyColor(); // Кликаем на чек-бокс серого
-            assertTrue(aboutRentPage.isGreyChecked(), "Серы йцвет не отмечен"); // Проверим что черный чек-бокс отжат
+            assertTrue(aboutRentPage.isGreyChecked(), "Серый цвет не отмечен"); // Проверим что черный чек-бокс отжат
 
             aboutRentPage.setDeliveryDate("2025-06-10"); // Вручную заполняем дату доставки
             aboutRentPage.rentalPeriod(new String[]{"два дня"});
